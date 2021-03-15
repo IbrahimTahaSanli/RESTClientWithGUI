@@ -1,0 +1,26 @@
+﻿<Window x:Class="RestClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestClient"
+        mc:Ignorable="d"
+        Title="RESTClient" MinHeight="450" MinWidth="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="Ip" Grid.ColumnSpan="2" Grid.RowSpan="2">Ip</TextBox>
+        <TextBox x:Name="Headers" Grid.Row="1" AcceptsReturn="True" Grid.ColumnSpan="2">Headers</TextBox>
+        <TextBox x:Name="Body" Grid.Row="2" AcceptsReturn="True" Grid.ColumnSpan="2" Grid.RowSpan="2">Body</TextBox>
+        <Button x:Name="SendButton" Grid.Column="2" Click="SendButton_Click" Content="SEND"></Button>
+        <TextBox x:Name="Response" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2">Response</TextBox>
+    </Grid>
+</Window>
