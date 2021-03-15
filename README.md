@@ -5,4 +5,4 @@ Capabilities:
 - Built In GUI With WPF.
 - Transfer Mesage With Socket For Testing More Cases.
 
-<img src="https://github.com/IbrahimTahaSanli/RESTClientWithGUI/blob/main/GUIPic.png?raw=true" width="450" height="800">
+<img src="https://github.com/IbrahimTahaSanli/RESTClientWithGUI/blob/main/GUIPic.png?raw=true" width="800" height="450">
